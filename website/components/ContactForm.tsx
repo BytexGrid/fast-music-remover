@@ -70,7 +70,7 @@ export default function ContactForm() {
       await new Promise(resolve => setTimeout(resolve, 1500)); // Simulated API call
       setSubmitStatus('success');
       setFormData({ name: '', email: '', subject: '', message: '' });
-    } catch (_) {
+    } catch (_error) {
       setSubmitStatus('error');
     } finally {
       setIsSubmitting(false);

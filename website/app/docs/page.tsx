@@ -45,7 +45,7 @@ export default function Documentation() {
             <ol className="list-decimal list-inside mb-4 text-gray-800 dark:text-gray-300">
               <li>Open the application in your browser</li>
               <li>Enter a YouTube URL or upload a file</li>
-              <li>Click "Process Media"</li>
+              <li>Click &quot;Process Media&quot;</li>
               <li>Download the processed file</li>
             </ol>
 
