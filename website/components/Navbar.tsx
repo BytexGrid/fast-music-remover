@@ -21,7 +21,7 @@ export default function Navbar() {
           <div className="flex-shrink-0">
             <Link href="/" className="flex items-center gap-2">
               <Image
-                src="/logo.png"
+                src="/fast-music-remover/logo.png"
                 alt="Fast Music Remover Logo"
                 width={32}
                 height={32}

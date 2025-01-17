@@ -37,7 +37,7 @@ export default function Home() {
               className="mb-8"
           >
             <Image
-                src="/logo.png"
+                src="/fast-music-remover/logo.png"
                 alt="Fast Music Remover Logo"
                 width={80}
                 height={80}
