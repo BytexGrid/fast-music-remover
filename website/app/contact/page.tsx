@@ -18,7 +18,7 @@ export default function Contact() {
             Contact Us
           </h1>
           <p className="text-xl text-gray-800 dark:text-gray-300 max-w-2xl mx-auto">
-            Have questions or need support? We're here to help. Fill out the form below
+            Have questions or need support? We&apos;re here to help. Fill out the form below
             or reach out through our other channels.
           </p>
         </motion.div>

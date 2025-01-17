@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 export default function Examples() {
   return (
     <div className="min-h-screen bg-white dark:bg-gray-900">
@@ -12,12 +14,12 @@ export default function Examples() {
             Application Interface
           </h2>
           <div className="bg-gray-800 rounded-lg overflow-hidden shadow-lg">
-            <img
+            <Image
               src="/UI-screenshot.png"
               alt="Fast Music Remover Interface"
-              className="w-full h-auto"
               width={1200}
               height={675}
+              className="w-full h-auto"
             />
           </div>
           <p className="text-sm text-gray-500 dark:text-gray-400 mt-2">
