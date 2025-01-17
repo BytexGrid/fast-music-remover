@@ -1,4 +1,7 @@
+'use client';
+
 import Image from 'next/image';
+import { usePathname } from 'next/navigation';
 
 export default function Examples() {
   return (
@@ -15,11 +18,12 @@ export default function Examples() {
           </h2>
           <div className="bg-gray-800 rounded-lg overflow-hidden shadow-lg">
             <Image
-              src="/fast-music-remover/UI-screenshot.png"
+              src={`/fast-music-remover/UI-screenshot.png`}
               alt="Fast Music Remover Interface"
               width={1200}
               height={675}
               className="w-full h-auto"
+              priority
             />
           </div>
           <p className="text-sm text-gray-500 dark:text-gray-400 mt-2">
@@ -43,7 +47,7 @@ export default function Examples() {
                 className="w-full h-full"
                 controls
                 playsInline
-                poster="/fast-music-remover/UI-screenshot.png"
+                poster={`/fast-music-remover/UI-screenshot.png`}
               >
                 <source
                   src="https://github.com/user-attachments/assets/e46c161b-0178-4213-b468-245e9f829d5e"

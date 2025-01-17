@@ -5,6 +5,7 @@ const nextConfig = {
     unoptimized: true,
   },
   basePath: '/fast-music-remover',
+  assetPrefix: '/fast-music-remover',
 }
 
 module.exports = nextConfig 
