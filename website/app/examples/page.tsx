@@ -15,7 +15,7 @@ export default function Examples() {
           </h2>
           <div className="bg-gray-800 rounded-lg overflow-hidden shadow-lg">
             <Image
-              src="/UI-screenshot.png"
+              src="/fast-music-remover/UI-screenshot.png"
               alt="Fast Music Remover Interface"
               width={1200}
               height={675}
@@ -43,7 +43,7 @@ export default function Examples() {
                 className="w-full h-full"
                 controls
                 playsInline
-                poster="/UI-screenshot.png"
+                poster="/fast-music-remover/UI-screenshot.png"
               >
                 <source
                   src="https://github.com/user-attachments/assets/e46c161b-0178-4213-b468-245e9f829d5e"
